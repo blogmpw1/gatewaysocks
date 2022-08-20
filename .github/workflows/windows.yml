@@ -31,7 +31,7 @@ jobs:
 #          shell: bash
           run: |
             echo "Here you are: " ls 
-            cp /src/Packet.lib C:\\Users\\runneradmin\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\
+            cp D:\a\gatewaysocks\gatewaysocks\src\Packet.lib C:\\Users\\runneradmin\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\
 
         - name: Build
           run: cargo build --release
