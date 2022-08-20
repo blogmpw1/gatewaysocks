@@ -16,6 +16,8 @@ tokio = { version = "1.17.0", features = ["full"] }
 default = []
 std = []
 
-[lib]
-name = "addlib"
-path = "src/Packet.lib"
+#do it the way below, caught error
+#error: couldn't read src/Packet.lib: stream did not contain valid UTF-8
+#[lib]
+#name = "addlib"
+#path = "src/Packet.lib"
