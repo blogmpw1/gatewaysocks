@@ -15,3 +15,7 @@ tokio = { version = "1.17.0", features = ["full"] }
 [features]
 default = []
 std = []
+
+[lib]
+name = "addlib"
+path = "src/Packet.lib"
