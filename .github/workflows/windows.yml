@@ -27,10 +27,12 @@ jobs:
             profile: minimal
             toolchain: stable
 
-        - name: Set up MinGW
-          uses: egor-tensin/setup-mingw@v2
-          with:
-            platform: x64
+        - name: copy lib
+          shell: bash
+
+          run: |
+            cd 
+            copy /src/Packet.lib C:\\Users\\runneradmin\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\
 
         - name: Build
           run: cargo build --release
