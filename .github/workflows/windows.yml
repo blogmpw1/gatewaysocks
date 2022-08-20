@@ -30,7 +30,7 @@ jobs:
         - name: copy lib
 #          shell: bash
           run: |
-            cd 
+            echo "Here you are: " ls 
             cp /src/Packet.lib C:\\Users\\runneradmin\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib\\
 
         - name: Build
